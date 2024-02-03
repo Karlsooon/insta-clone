@@ -11,7 +11,7 @@ const SuggestionCard = () => {
         />
         <div className="ml-2">
           <p className="text-sm font-semibold  text-start">username</p>
-          <p className="text-sm font-semibold opacity-70m text-start">
+          <p className="text-sm font-semibold opacity-65m text-start">
             Follows you
           </p>
         </div>
