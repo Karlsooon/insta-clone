@@ -26,9 +26,9 @@ const ProgressBar = ({ index, activeIndex, duration }) => {
   }, [activeIndex]);
   const isActive = index === activeIndex;
   return (
-    <div className={`progress-bar-container ${isActive ? "active" : ""}`}>
+    <div className={`progress-bar-container  ${isActive ? "active" : ""}`}>
       <div
-        className={`${isActive ? "progress-bar" : ""}`}
+        className={` ${isActive ? "progress-bar" : ""}`}
         style={{ width: `${progress}%` }}
       ></div>
     </div>
