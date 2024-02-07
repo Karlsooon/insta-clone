@@ -13,7 +13,7 @@ export const ProfileUserDetails = () => {
           />
         </div>
 
-        <div className="space-y-5 ">
+        <div className="space-y-6 ">
           <div className="flex space-x-10 items-center">
             <p>username</p>
             <button>Edit Profile</button>
